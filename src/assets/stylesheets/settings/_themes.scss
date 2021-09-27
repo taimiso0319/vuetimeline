@@ -1,0 +1,125 @@
+/* **************************************************************************
+   SETTINGS > THEMES
+   ************************************************************************** */
+
+$dark: (
+        "name": "dark",
+        "backgrounds": (
+                "default": (
+                        "primary": $ebony-clay,
+                        "secondary": $ebony-clay-2,
+                        "tertiary": $mirage-2,
+                        "quaternary": $mirage
+                ),
+                "reverse": (
+                        "primary": $white
+                )
+        ),
+        "borders": (
+                "default": (
+                        "primary": $oxford-blue
+                ),
+                "reverse": (
+                        "primary": $white
+                )
+        ),
+        "shadows": (
+                "default": (
+                        "primary": $woodsmoke,
+                        "secondary": $black
+                )
+        ),
+        "fonts": (
+                "default": (
+                        "primary": $white,
+                        "secondary": $regent-st-blue,
+                        "tertiary": $nepal
+                ),
+                "reverse": (
+                        "primary": $oxford-blue
+                )
+        ),
+        "colors": (
+                "black": $rhino,
+                "blue": $azure-radiance,
+                "green": $sushi,
+                "grey": $regent-st-blue,
+                "orange": $sun,
+                "purple": $portage,
+                "red": $crimson,
+                "turquoise": $java,
+                "white": $white,
+                "yellow": $sunglow
+        ),
+        "statuses": (
+                "active": $azure-radiance,
+                "description": $nepal,
+                "error": $crimson,
+                "normal": $oxford-blue,
+                "info": $azure-radiance,
+                "success": $sushi,
+                "warning": $sunglow
+        )
+);
+
+$light: (
+        "name": "light",
+        "backgrounds": (
+                "default": (
+                        "primary": $white,
+                        "secondary": $athens-gray,
+                        "tertiary": $selago,
+                        "quaternary": $periwinkle-gray
+                ),
+                "reverse": (
+                        "primary": $rhino
+                )
+        ),
+        "borders": (
+                "default": (
+                        "primary": $periwinkle-gray
+                ),
+                "reverse": (
+                        "primary": $fiord
+                )
+        ),
+        "shadows": (
+                "default": (
+                        "primary": $solitude,
+                        "secondary": $periwinkle-gray
+                )
+        ),
+        "fonts": (
+                "default": (
+                        "primary": $rhino-2,
+                        "secondary": $waikawa-gray,
+                        "tertiary": $nepal
+                ),
+                "reverse": (
+                        "primary": $white
+                )
+        ),
+        "colors": (
+                "black": $rhino-2,
+                "blue": $lochmara,
+                "green": $atlantis,
+                "grey": $nepal,
+                "orange": $pumpkin,
+                "purple": $portage,
+                "red": $crimson,
+                "turquoise": $java,
+                "white": $white,
+                "yellow": $supernova
+        ),
+        "statuses": (
+                "active": $lochmara,
+                "description": $nepal,
+                "error": $crimson,
+                "normal": $periwinkle-gray,
+                "info": $lochmara,
+                "success": $atlantis,
+                "warning": $pumpkin
+        )
+);
+
+$themes: $dark, $light;
