@@ -205,8 +205,8 @@ export default {
 
 <style lang="scss">
 // IMPORTS
-@import "node_modules/@growthbunker/stylesheets/settings/_colors.scss";
-@import "../assets/scss/main/_themes.scss";
+@import "src/assets/stylesheets/settings/_settings.colors.scss";
+@import "src/assets/stylesheets/settings/_themes.scss";
 @import "node_modules/@growthbunker/stylesheets/tools/_functions.scss";
 @import "node_modules/@growthbunker/stylesheets/tools/_mq.scss";
 
